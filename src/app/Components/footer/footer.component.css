@@ -1,0 +1,71 @@
+.footer{
+    background-color: red;
+    direction: rtl;
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 25px 0;
+}
+.copyRights{
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+}
+.footer .container .col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.anchors{
+    text-align: right;
+}
+.anchors a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all;
+}
+.anchors a:hover{
+    color: black;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle{
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .clickable{
+    cursor: pointer;
+} */
+ul{
+    list-style: none;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-twitter{
+    color: #09c
+}
+.logoMorakab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    color: black;
+}
