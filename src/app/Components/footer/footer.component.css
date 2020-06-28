@@ -12,10 +12,6 @@
     text-align: center;
     font-weight: 600;
 }
-.footer .container{
-    display: flex;
-    align-items: center;
-}
 .footer .container .col-md-4{
     display: flex;
     flex-direction: column;

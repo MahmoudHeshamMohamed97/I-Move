@@ -1,0 +1,97 @@
+.myBody{
+    direction: rtl;
+}
+.cardsSection{
+    background-color: #CDDBF4;
+}
+.card-footer{
+    background-color: red;
+    color: white !important;
+    font-weight: 500;
+}
+.whyUs .header{
+    color: black;
+    font-weight: 600;
+}
+.whyUs .header span{
+    color: red;
+}
+.whyUs .header .line{
+    background-color: blue;
+    width: 125px;
+    margin: auto;
+    height: 3px;
+    transition: 0.5s all;
+}
+.whyUs .header:hover .line{
+    width: 160px;
+}
+.whyUs .service{
+    min-width: 30px;
+    height: 160px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    margin-bottom: 15px;
+}
+.whyUs .service i{
+    font-size: 5rem;
+}
+.leftPart p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+/**/
+.contacts{
+    background-color: black;
+    position: relative;
+}
+/* .contacts .blackLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+} */
+.contacts  i{
+    font-size: 5rem;
+    color: blueviolet;
+}
+.contacts  p{
+    font-weight: 500;
+    color: white;
+}
+/***/
+.owners .container{
+    position: relative;
+}
+.fa-angle-left , .fa-angle-right{
+    font-size: 3.3rem;
+}
+.fa-angle-left{
+    position: absolute;
+    right: 85%;
+    top: 50%;
+    transform: translate(-50%);
+}
+.fa-angle-right{
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translate(-50%);
+}
+.clickable{
+    cursor: pointer;
+}
+#num1 img , #num2 img{
+    border: 1px solid blueviolet;
+    padding: 3px;
+}
+.skitter ,.skitter-large, .slider{
+    width: 100% !important;
+}
